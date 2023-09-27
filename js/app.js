@@ -13,10 +13,12 @@ function sayHello(personsName){
 
 //write the functions name ()
 sayHello('Shavon'); //runs the block of code defined by the sayHello func
-*/
 function sayGoodbye(phrase, personsName){
     console.log(`${phrase}, ${personsName}`)
 }
 
 sayGoodbye('Adios', 'Laura');
+
+*/
+
 
