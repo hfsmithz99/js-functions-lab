@@ -34,3 +34,27 @@ function isACharAVowel(q){
 }
 
 console.log(isACharAVowel('o'));
+
+//4.
+const arrayExample = [1,2,3]
+let sum = 0;
+
+/*function sumArray(arr){
+    arr.forEach(function(p){
+        sum += p;
+    })
+
+    return sum;
+}
+*/
+
+const sumArray = function(array){
+    array.forEach(function(p){
+        sum += p;
+    })
+    
+    return sum;
+}
+
+console.log(sumArray(arrayExample));
+
