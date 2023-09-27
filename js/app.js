@@ -25,3 +25,12 @@ function maxOfTwoNumbers(x, y) {
   }
 
   console.log(maxOfThree(5,2,3));
+
+// 3.
+
+function isACharAVowel(q){
+    let vowels = 'aeiouy';
+    return(vowels.indexOf(q) > -1);
+}
+
+console.log(isACharAVowel('o'));
