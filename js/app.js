@@ -1,24 +1,27 @@
-/*defining a function
-//declaring a function
-//creating the reusable block of code
-//to be used at a later time in the program
-function sayHello(personsName){
-    //write the code to say hello here
-    console.log(`Hello ${personsName}`);
-}
+// 1.
+function maxOfTwoNumbers(x, y) {
+    if (x >= y) {
+      return x;
+    } else {
+         return y;
+    }
+    
+    // or more "elegantly" using the fantastic ternary expression!
+    // return  x >= y ? x : y;
+  }
+  
+  console.log(maxOfTwoNumbers(3, 9));
+  
+  // 2.
 
-//execute the function
-//invoke the function
-//call the function
+  function maxOfThree(x, y, z){
+    if((x > y) && (x > z)){
+        return x;
+    } else if ((y > x) && (y>z)){
+        return y;
+    } else if ((z > x) && (z > y)){
+        return z;
+    }
+  }
 
-//write the functions name ()
-sayHello('Shavon'); //runs the block of code defined by the sayHello func
-function sayGoodbye(phrase, personsName){
-    console.log(`${phrase}, ${personsName}`)
-}
-
-sayGoodbye('Adios', 'Laura');
-
-*/
-
-
+  console.log(maxOfThree(5,2,3));
