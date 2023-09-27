@@ -58,3 +58,16 @@ const sumArray = function(array){
 
 console.log(sumArray(arrayExample));
 
+//5.
+
+function multiplyArray(array){
+    let sumOne = 1;
+    array.forEach(function(i){
+        sumOne *= i;
+    })
+    return sumOne;
+}
+console.log(multiplyArray([2,2,3]));
+
+
+
