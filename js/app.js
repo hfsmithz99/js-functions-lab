@@ -69,5 +69,15 @@ function multiplyArray(array){
 }
 console.log(multiplyArray([2,2,3]));
 
+//6.
+//Took some googling but I found the args.length method
+
+const numArgs = function(...args){
+    return args.length;
+}
+
+console.log(numArgs(1,3,5, 7,9,3));
+
+
 
 
