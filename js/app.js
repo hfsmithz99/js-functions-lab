@@ -78,6 +78,17 @@ const numArgs = function(...args){
 
 console.log(numArgs(1,3,5, 7,9,3));
 
+//7.
+
+function reverseString(string){
+    let brokenString = string.split("");
+    let reversedArray = brokenString.reverse();
+    let reversedString = reversedArray.join("");
+    return reversedString;
+ }
+ 
+ console.log(reverseString("Hello"));
+
 
 
 
